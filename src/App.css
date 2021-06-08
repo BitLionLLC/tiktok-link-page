@@ -56,3 +56,7 @@ body {
     width: 70vw;
   }
 }
+
+.live-text {
+  color: red;
+}

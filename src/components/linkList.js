@@ -12,9 +12,9 @@ const links = [
   {link: "https://onlyfans.com/keefler_elf", title: "OnlyFans", icon: ["fas", "lock"]},
 ]
 
-const LinkList = () => {
+const LinkList = (isLive) => {
   return links.map(link => {
-    return <SingleLink link={link.link} title={link.title} icon={link.icon} altText={link.altText} />
+    return <SingleLink link={link.link} title={link.title} icon={link.icon} altText={link.altText} isLive={isLive} />
   })
 }
 
