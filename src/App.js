@@ -21,7 +21,6 @@ function App() {
     axios
       .get('https://api.twitch.tv/kraken/streams/433762691', config)
       .then(res => {
-        console.log(res);
         if (res.data.stream.broadcast_platform === "live") {
           setIsLiveOnTwitch(true);
         }
