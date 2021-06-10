@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="header">
       <img src={keeflerImg} alt="Brayden Bauer" width="150" className="hero-image" />
-      <h1>Brayden Bauer</h1>
+      <h1>Keefler</h1>
       <p>Musician, Twitch streamer</p>
     </div>
   )
