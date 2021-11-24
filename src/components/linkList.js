@@ -3,7 +3,7 @@ import SingleLink from './singleLink';
 
 const links = [
   {link: "https://open.spotify.com/artist/3t3zKVdiWERcdDHg6ei89c?si=Tv792WlMSoKoQuVKl9kZdw", title: "Music (Spotify)", icon: ["fab", "spotify"]},
-  {link: "https://music.apple.com/us/album/breezy-single/1567558647", title: "Music (Apple Music)", icon: ["fab", "apple"]},
+  {link: "https://music.apple.com/us/artist/keefler/1567547480", title: "Music (Apple Music)", icon: ["fab", "apple"]},
   {link: "https://www.twitch.tv/keefler_elf", title: "Twitch", icon: ["fab", "twitch"]},
   {link: "https://discord.gg/MsEwjY2", title: "Join the Discord!", icon: ["fab", "discord"]},
   {link: "https://twitter.com/keefler_elf", title: "Twitter", icon: ["fab", "twitter"]},
