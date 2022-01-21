@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-function SingleLink({link, title, icon, isLive}) {
+function SingleLink({ link, title, icon, isLive }) {
   return (
     <a href={link} className="single-link-a">
       <div className="single-link">
