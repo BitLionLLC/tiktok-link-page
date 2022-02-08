@@ -4,7 +4,7 @@ import keeflerImg from '../assets/keefler.jpg';
 function Header() {
   return (
     <div className="header">
-      <img src={keeflerImg} alt="Keefler" width="150" className="hero-image" />
+      <img src={keeflerImg} alt="Keefler" width="200" className="hero-image" />
       <h1>Keefler</h1>
       <p>Musician, Twitch streamer</p>
     </div>

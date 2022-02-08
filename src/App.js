@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .post("https://id.twitch.tv/oauth2/token?client_id=fnqmo60hbl4l677epnry648yxie2tn&client_secret=8e1ivl0wa63bskpv6a4n20ukpymqvg&grant_type=client_credentials")
+      .get("https://link-page-node-backend.herokuapp.com/token")
       .then(res => {
         const token = res.data.access_token;
         const config = {
