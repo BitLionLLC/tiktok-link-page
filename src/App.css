@@ -6,7 +6,6 @@
 body {
   background-image: url('./assets/app-background.jpg');
   background-size: cover;
-  background-repeat: repeat;
 }
 
 .App {
@@ -48,6 +47,10 @@ body {
   color: white;
 }
 
+#hero-image-container {
+  width: 200px;
+}
+
 @media (max-width: 700px) {
   .App {
     width: 80vw;
@@ -55,6 +58,10 @@ body {
 
   .single-link {
     width: 70vw;
+  }
+
+  #hero-image-container {
+    width: 150px;
   }
 }
 
