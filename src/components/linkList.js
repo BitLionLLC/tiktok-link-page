@@ -9,7 +9,6 @@ const links = [
   {link: "https://discord.gg/MsEwjY2", title: "Join the Discord!", icon: ["fab", "discord"], color: "#5865F2"},
   {link: "https://twitter.com/keefler_elf", title: "Twitter", icon: ["fab", "twitter"], color:"#00acee"},
   {link: "https://www.instagram.com/keefler_elf/", title: "Instagram", icon: ["fab", "instagram"], color: "#3f729b"},
-  {link: "https://commonscannabis.com/?sld=20", title: "Weed (delta-8 THC)", icon: ["fas", "cannabis"], color: "green"}, 
   {link: "https://www.bonfire.com/store/braydens-very-diverse-store/", title: "Merch", icon: ["fas", "shopping-cart"]},
   {link: "https://www.yasglass.com/not-high-pipes.html", title: "Pipes", icon: ["fas", "joint"]},
   {link: "https://onlyfans.com/keefler_elf", title: "OnlyFans", icon: ["fas", "lock"], color: "#00AFF0"},
