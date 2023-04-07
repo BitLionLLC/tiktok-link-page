@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: dodgerblue;
+  background-color: #FF00BF;
   padding: 50px;
   border-radius: 10px;
 }
@@ -30,7 +30,7 @@ body {
   max-width: 540px;
   display: flex;
   justify-content: space-between;
-  background-color: lightblue;
+  background-color: pink;
   padding: 15px 30px;
   border-radius: 40px;
   font-weight: bold;

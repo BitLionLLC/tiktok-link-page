@@ -5,6 +5,7 @@ const links = [
   {link: "https://open.spotify.com/artist/3t3zKVdiWERcdDHg6ei89c?si=Tv792WlMSoKoQuVKl9kZdw", title: "Music (Spotify)", icon: ["fab", "spotify"], color: "#1DB954"},
   {link: "https://open.spotify.com/artist/2RepJuGMScwrv8zoAufnmf?si=OJ_bbekFTh-dGv9Gn8y1Hg", title: "More music (Spotify)", icon: ["fab", "spotify"], color: "#1DB954"},
   {link: "https://music.apple.com/us/artist/keefler/1567547480", title: "Music (Apple Music)", icon: ["fab", "apple"], color: "#fc3c44"},
+  {link: "https://music.apple.com/us/artist/brayden-bauer/1476482299", title: "More music (Apple Music)", icon: ["fab", "apple"], color: "#fc3c44"},
   {link: "https://www.twitch.tv/keefler_elf", title: "Twitch", icon: ["fab", "twitch"], color: "#6441a5"},
   {link: "https://discord.gg/MsEwjY2", title: "Join the Discord!", icon: ["fab", "discord"], color: "#5865F2"},
   {link: "https://twitter.com/keefler_elf", title: "Twitter", icon: ["fab", "twitter"], color:"#00acee"},
