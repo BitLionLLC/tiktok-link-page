@@ -58,10 +58,17 @@ body {
 
   .single-link {
     width: 70vw;
+    padding: 15px 30px;
   }
 
   #hero-image-container {
     width: 150px;
+  }
+}
+
+@media (max-width: 475px) {
+  .single-link {
+    padding: 15px;
   }
 }
 
