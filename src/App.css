@@ -6,6 +6,7 @@
 body {
   background-image: url('./assets/app-background.jpg');
   background-size: cover;
+  background-color: #B850A5;
 }
 
 .App {
