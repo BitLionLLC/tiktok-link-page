@@ -5,6 +5,7 @@ import LinkList from './components/linkList';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
+import keeflerLogo from './assets/keefler-logo.png';
 import axios from 'axios';
 
 function App() {
@@ -41,9 +42,17 @@ function App() {
   }, [])
 
   return (
-    <div className="App">
-      <Header />
-      <LinkList isLive={isLiveOnTwitch} />
+    <div className='container'>
+      <div className='logo left-logo'>
+        <img src={keeflerLogo} width="300"/>
+      </div>
+      <div className="App">
+        <Header />
+        <LinkList isLive={isLiveOnTwitch} />
+      </div>
+      <div className='logo right-logo'>
+        <img src={keeflerLogo} width="300"/>
+      </div>
     </div>
   );
 }

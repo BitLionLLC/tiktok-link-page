@@ -9,6 +9,11 @@ body {
   background-color: #B850A5;
 }
 
+.container {
+  display: flex;
+
+}
+
 .App {
   max-width: 770px;
   width: 60vw;
@@ -38,6 +43,30 @@ body {
   align-items: center;
 }
 
+.logo {
+  flex-grow: 1;
+}
+
+.left-logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.left-logo img {
+  padding: 0 20px 400px 0;
+}
+
+.right-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right-logo img {
+  padding: 0 0 400px 20px;
+}
+
 .single-link-a {
   text-decoration: none;
   color: black;
@@ -63,6 +92,33 @@ body {
   border-radius: 100%;
 }
 
+@media (max-width: 1300px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .logo {
+    height: 200px;
+  }
+
+  .left-logo {
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    margin-top: -30px;
+  }
+
+  .left-logo img {
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  .right-logo {
+    display: none;
+  }
+}
+
 @media (max-width: 700px) {
   .App {
     width: 80vw;
@@ -81,12 +137,13 @@ body {
 @media (max-width: 475px) {
   .single-link {
     padding: 15px;
+    font-size: 0.9em;
   }
 }
 
 .live-text {
   color: red;
   background-color: rgba(255,255,255,0.35);
-  padding: 5px;
+  padding: 2px 5px;
   border-radius: 10px;
 }
