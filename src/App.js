@@ -44,14 +44,14 @@ function App() {
   return (
     <div className='container'>
       <div className='logo left-logo'>
-        <img src={keeflerLogo} width="300"/>
+        <img src={keeflerLogo} width="300" alt='keefler logo'/>
       </div>
       <div className="App">
         <Header />
         <LinkList isLive={isLiveOnTwitch} />
       </div>
       <div className='logo right-logo'>
-        <img src={keeflerLogo} width="300"/>
+        <img src={keeflerLogo} width="300" alt='keefler logo'/>
       </div>
     </div>
   );
