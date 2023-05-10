@@ -6,7 +6,7 @@ function SingleLink({ link, title, icon, color, isLive }) {
     <a href={link} className="single-link-a" target="_blank" rel="noreferrer">
       <div className="single-link">
         <div>{title} {title === "Twitch" ? isLive ? <span>- <span className="live-text">LIVE!</span></span> : <span>- Not live</span> : null}</div>
-        <FontAwesomeIcon icon={icon} color={color} />
+        <div className='fa-icon'><FontAwesomeIcon icon={icon} color={color} /></div>
       </div>
     </a>
   )
