@@ -1,16 +1,16 @@
-import React from 'react';
-import keeflerImg from '../assets/keefler.jpg';
+import React from "react";
+import avatar from "../assets/avatar.png";
 
 function Header() {
   return (
     <div className="header">
       <div id="hero-image-container">
-        <img src={keeflerImg} alt="Keefler" width="100%" className="hero-image" />
+        <img src={avatar} alt="Keefler" width="100%" className="hero-image" />
       </div>
-      <h1>Keefler</h1>
-      <p>Musician, Twitch streamer</p>
+      <h1>Lovely Sayings</h1>
+      <p>Inspiration, condensed</p>
     </div>
-  )
+  );
 }
 
 export default Header;
